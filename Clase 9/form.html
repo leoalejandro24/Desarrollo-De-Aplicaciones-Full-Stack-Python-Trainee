@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario a Google Sheets</title>
+</head>
+<body>
+    <form id="myForm" action="https://script.google.com/macros/s/AKfycbyROp3MkIqnQvZ7JMcgSXswP6tcKEoPHoduJA5dE_P-goyl6Ds-UuZdIPYpjcCzeTA0/exec" method="post"> <!-- Metodo post es cuando se ingresa la información-->
+        <input type="text" name="nombre" placeholder="Nombre" required>  <!--input es el campo que se requiere información-->
+        <input type="email" name="email" placeholder="Email" required> <!--placeholder es un mensaje que aparece en el campo-->
+        <textarea name="mensaje" placeholder = "Mensaje"></textarea>
+        <button type="submit">Enviar</button> <!--Enviar es el texto que aparece en el boton-->
+    </form>
+</body>
+</html>

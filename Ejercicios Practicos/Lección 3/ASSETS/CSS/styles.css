@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: red;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.imagensharingan {
+    width: 400px; /*Ancho en pixeles*/
+    height: 300px; /*Alto en pixeles*/
+    margin: auto;
+}

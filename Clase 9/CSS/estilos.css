@@ -1,0 +1,16 @@
+.cabecera { /* Cuando hago el llamado por clase se debe ingresar un punto (.) seguido del nombre de la clase */
+background-color: yellow;
+}
+
+body { /* Cuando hago el llamado por etiqueta solo ingreso el nombre de la etiqueta */
+background-color: red;
+}
+
+#mainID { /* Cuando hago el llamado por id debo ingresar un gato (#) y el nombre del id */
+    background-color: black; 
+}
+
+/* Orden Jerarquico
+
+Escribir código in line en el css, siempre va a tener mayor jerarquia.
+Despues vendria 
