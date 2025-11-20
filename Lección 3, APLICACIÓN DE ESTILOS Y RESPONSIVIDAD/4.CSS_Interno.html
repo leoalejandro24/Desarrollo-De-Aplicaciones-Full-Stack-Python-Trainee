@@ -6,9 +6,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Interno</title>
-    <style ></style>
+    <style type="text/css">
+        body {
+            background-color: #333; /*Color de fondo del body */
+            color: white; /* Color de la letra */
+            padding: 50px;
+            /*El padding en CSS es la propiedad que define el espacio interno entre el 
+            contenido de un elemento y el borde de ese mismo elemento. 
+            Es decir, crea un área de relleno dentro del contenedor, 
+            separando el contenido del borde, lo que evita que el contenido esté 
+            "pegado" a los límites del elemento.*/
+        }
+        h1 {
+            color: yellow; /*Color de letra*/
+        }
+        p {
+            font-size: 18px;
+        }
+    </style> <!-- En la etiqueta style se ingresan los estilos del css-->
 </head>
 <body>
-    
+    <h1>Esta vez aplicaremos CSS Interno</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Consequuntur dolor debitis nostrum, labore id tempora explicabo. 
+    Laboriosam saepe, quae facere at aliquid vitae incidunt repellendus eos facilis 
+    voluptatibus iusto ullam!
+    </p> <!--Al unico que le afecta el color de letra es al parrafo ya que esta en el body-->
 </body>
 </html>
